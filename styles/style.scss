@@ -9,8 +9,10 @@ $gray-text: #2C2C2C;
 
 @mixin flex($justify,$align, $direction){
     display: flex;
-    justify-content: $jusitfy;
+    justify-content: $justify;
     align-items: $align;
-    flex-direction: $direction;
+    flex-direction: $direction;  
 }
-@import 'global';
+
+@import "global";
+@import "intro";
